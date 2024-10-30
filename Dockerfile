@@ -1,5 +1,5 @@
 # 오피셜 노드 이미지
-FROM node:alpine3.18 as build
+FROM node:alpine3.18 AS build
 
 
 # 작업 디렉토리 설정
