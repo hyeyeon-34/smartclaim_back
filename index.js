@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('안녕 세계야!');
 });
 
 app.use(require('./routes/claims_histories_rts'));
