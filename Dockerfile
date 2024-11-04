@@ -18,4 +18,4 @@ COPY . .
 CMD ["node", "index.js"]
 
 # 외부에 노출할 포트 설정
-EXPOSE 8003
+EXPOSE 9000
